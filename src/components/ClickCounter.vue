@@ -8,8 +8,8 @@ const countMessage = computed(() => '回数: ' + count.value)
 <template>
   <div>
     <div>{{ countMessage }}</div>
-    <button @click="count++">クリック！</button>
-    <button @click="count = 0">リセット！</button>
+    <button @click="count++">クリック</button>
+    <button @click="count = 0">リセット</button>
   </div>
 </template>
 
